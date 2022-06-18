@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="Rest">
+                
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+                
+        <dependent-module archiveName="ViewController.war" deploy-path="/" handle="module:/resource/ViewController/ViewController">
+                        
+            <dependent-object/>
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="RestController.war" deploy-path="/" handle="module:/resource/RestController/RestController">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ModelDB.jar" deploy-path="/lib" handle="module:/resource/ModelDB/ModelDB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+            
+    </wb-module>
+    
+</project-modules>
